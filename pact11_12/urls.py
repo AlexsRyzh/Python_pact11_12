@@ -21,6 +21,6 @@ from pract_12.urls import pract_12_urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("ryzhkov/", include(pract_11_urls)),
+    path("", include(pract_11_urls)),
     path("", include(pract_12_urls))
 ]
